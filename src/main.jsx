@@ -1,11 +1,13 @@
 import { createRoot } from "react-dom/client";
-import "./index.css";
+import "./header.css";
+import "./hompage.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Layout from "./components/Layout";
 import HomePage from "./pages/HomePage";
 import PortfolioPage from "./pages/PortfolioPage";
 import ContactPage from "./pages/ContactPage";
 import Header from "./components/Header";
+
 
 const router = createBrowserRouter([
   {

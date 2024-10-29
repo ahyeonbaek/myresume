@@ -6,10 +6,13 @@ const Header = () => {
         navigate(path);
     }
     return(
-        <header className='app-header'>
-            <button onClick={() => handleClickMenu("/home")} >home</button>
-            <button onClick={() => handleClickMenu("/portfolio")}>portfolio</button>
-            <button onClick={() => handleClickMenu("/contact")}>contact</button>
+        <header className='app-header' style={{ backgroundColor: "rgb(224 229 235)" }}>
+            
+            <ul>
+                <li><a onClick={() => handleClickMenu("/")}>HOME</a></li>
+                <li><a onClick={() => handleClickMenu("/portfolio")}>PORTFOLIO</a></li>
+                <li><a onClick={() => handleClickMenu("/contact")}>CONTACT</a></li>
+            </ul>
         </header>
     );
 };

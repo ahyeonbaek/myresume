@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.app-header ul {
+  display: flex;
+  align-items: center;
+  background-color: rgb(37, 124, 253);
+  height: 40px;
+  padding: 0;
+  margin-left: 300px;
+  border-radius: 50px;
+}
+
+.app-header li{
+  list-style: none;
+  padding: 0 70px;
+  color: #fff;
+  font-weight: 900;
+}
